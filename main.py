@@ -35,7 +35,10 @@ if size == 18:
     print("Type in your voucher code here:")
     code = input()
     if code == "FunFriday":
+      print("Code valid")
       price = price - 2
+    else:
+      print("Code invalid")
 print("The total cost for your pizza is:")
 print(price)
 print("pounds. Enjoy your pizza!")
